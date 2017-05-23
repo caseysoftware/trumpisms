@@ -1,15 +1,14 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Trumpisms",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
+	"description": "Replaces the text on websites with President Trump's preferred nicknames. Based on the Cloud to Butt Extension.",
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
 			"js": ["content_script.js"],
-			"run_at": "document_end"
+			"run_at": "document_idle"
 		}
 	]
 }
-
