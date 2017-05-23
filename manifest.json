@@ -12,7 +12,7 @@
 		}
 	],
 	"icons": {
-		"48": "poop-48.png",
-		"128": "poop-128.png"
+		"48": "images/poop-48.png",
+		"128": "images/poop-128.png"
 	}
 }
