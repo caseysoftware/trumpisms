@@ -40,6 +40,8 @@ function handleText(textNode)
 
     v = v.replace(/\bISIS\b/g, "Evil Losers");
     v = v.replace(/\bHillary Clinton\b/g, "Crooked Hillary");
+    v = v.replace(/\bPresident Trump\b/g, "God Emperor Trump");
+    v = v.replace(/\bDonald Trump\b/g, "God Emperor Trump");
 
     textNode.nodeValue = v;
 }
